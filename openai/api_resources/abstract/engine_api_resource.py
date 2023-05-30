@@ -43,7 +43,7 @@ class EngineAPIResource(APIResource):
         request_id=None,
         api_version=None,
         organization=None,
-        **params,
+        **params
     ):
         # TODO max
         engine_id = params.get("id")
@@ -70,7 +70,7 @@ class EngineAPIResource(APIResource):
         request_id=None,
         api_version=None,
         organization=None,
-        **params,
+        **params
     ):
         """
         Create a new instance of this model.
